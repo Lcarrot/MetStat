@@ -1,0 +1,12 @@
+debug: true
+spring:
+   datasource:
+      driver-class-name: ru.yandex.clickhouse.ClickHouseDriver
+      username: default
+      password: 
+      url: jdbc:clickhouse://127.0.0.1:8123
+      connectionTimeout: 67000
+      hikari:
+         connectionTimeout: 67000
+         idleTimeout: 600000
+         maxLifetime: 1800000   
